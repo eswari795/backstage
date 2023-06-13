@@ -1,7 +1,24 @@
 apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: spotify
+  title: Pets
+  description: |
+    A service for testing Backstage functionality. Configured for GitHub Actions and
+    Sentry.
+spec:
+  type: service
+  owner: sganesula
+  lifecycle: experimental
+  system: sample-system
+  providesApis:
+    - v1
+    - v2
+---
+apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: petstore
+  name: v1
   description: The petstore API
   tags:
     - store
