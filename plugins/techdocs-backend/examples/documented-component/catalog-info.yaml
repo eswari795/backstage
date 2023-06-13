@@ -1,12 +1,12 @@
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: documented-component
-  title: Documented Component
-  description: A Service with TechDocs documentation
-  annotations:
-    backstage.io/techdocs-ref: url:https://github.com/eswari795/backstage/blob/master
-spec:
-  type: service
-  lifecycle: experimental
-  owner: Eshwari
+# apiVersion: backstage.io/v1alpha1
+# kind: Component
+# metadata:
+#   name: documented-component
+#   title: Documented Component
+#   description: A Service with TechDocs documentation
+#   annotations:
+#     backstage.io/techdocs-ref: url:https://github.com/eswari795/backstage/blob/master
+# spec:
+#   type: service
+#   lifecycle: experimental
+#   owner: Eshwari
