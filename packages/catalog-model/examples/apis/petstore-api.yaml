@@ -13,7 +13,6 @@ spec:
   system: pets-system
   providesApis:
     - v1
-    - v2
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
