@@ -5,8 +5,8 @@ metadata:
   title: Documented Component
   description: A Service with TechDocs documentation
   annotations:
-    backstage.io/techdocs-ref: dir:./docs
+    backstage.io/techdocs-ref: dir:backstage/plugins/techdocs-backend/examples/documented-component
 spec:
   type: service
   lifecycle: experimental
-  owner: Esh
+  owner: Eshwari
