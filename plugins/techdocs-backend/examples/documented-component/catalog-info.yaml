@@ -5,8 +5,8 @@ metadata:
   title: Documented Component
   description: A Service with TechDocs documentation
   annotations:
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: url:https://github.com/eswari795/backstage/blob/master
 spec:
   type: service
   lifecycle: experimental
-  owner: Esh
+  owner: Eshwari
