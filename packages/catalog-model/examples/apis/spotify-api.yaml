@@ -12,13 +12,13 @@ spec:
   lifecycle: experimental
   system: sample-system
   providesApis:
-    - spotify
-    - sample-service
+    - v1
+    - v2
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: spotify
+  name: v1
   description: The Spotify web API
   tags:
     - spotify
@@ -39,7 +39,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: sample-service
+  name: v2
   description: The Spotify web API
   tags:
     - spotify
