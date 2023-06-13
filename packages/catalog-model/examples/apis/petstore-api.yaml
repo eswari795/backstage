@@ -10,7 +10,7 @@ spec:
   type: service
   owner: sganesula
   lifecycle: experimental
-  system: sample-system
+  system: pets-system
   providesApis:
     - v1
     - v2
@@ -34,7 +34,7 @@ spec:
   type: openapi
   lifecycle: experimental
   owner: madhukar
-  system: sample-system
+  system: pets-system
   definition: |
     openapi: "3.0.0"
     info:
