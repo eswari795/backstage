@@ -17,3 +17,23 @@ spec:
     #$text: https://github.com/APIs-guru/openapi-directory/blob/dab6854d4d599aafb0eb36e6c7ae1fe0c37509b7/APIs/spotify.com/2021.4.2/openapi.yaml
     $text: https://github.com/eswari795/openapi-directory/blob/main/APIs/spotify.com/1.0.0/openapi.yaml
     #$text: https://github.com/eswari795/openapi-directory/blob/main/APIs/spotify.com/sonallux/2023.2.27/openapi.yaml
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: spotify
+  description: The Spotify web API
+  tags:
+    - spotify
+    - rest
+#   annotations:
+#     # The annotation is deprecated, we use placeholders (see below) instead, remove it later.
+#     backstage.io/definition-at-location: 'url:https://raw.githubusercontent.com/eswari795/openapi-directory/main/APIs/spotify.com/v4/swagger.yaml'
+spec:
+  type: openapi
+  lifecycle: production
+  owner: sganesula
+  definition:
+    #$text: https://github.com/APIs-guru/openapi-directory/blob/dab6854d4d599aafb0eb36e6c7ae1fe0c37509b7/APIs/spotify.com/2021.4.2/openapi.yaml
+    #$text: https://github.com/eswari795/openapi-directory/blob/main/APIs/spotify.com/1.0.0/openapi.yaml
+    $text: https://github.com/eswari795/openapi-directory/blob/main/APIs/spotify.com/sonallux/2023.2.27/openapi.yaml
