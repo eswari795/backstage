@@ -8,5 +8,5 @@ metadata:
     backstage.io/techdocs-ref: dir:.
 spec:
   type: library
-  owner: esh
+  owner: eshwari
   lifecycle: experimental
