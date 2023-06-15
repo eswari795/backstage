@@ -8,6 +8,7 @@ metadata:
     Sentry.
   annotations:
     backstage.io/techdocs-ref: url:https://github.com/eswari795/backstage/blob/master/packages/catalog-model/examples
+
 spec:
   type: service
   owner: sganesula
