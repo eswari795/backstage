@@ -7,7 +7,7 @@ metadata:
     A service for testing Backstage functionality. Configured for GitHub Actions and
     Sentry.
   annotations:
-    backstage.io/techdocs-ref: dir:../../../../..
+    backstage.io/techdocs-ref: url:https://github.com/eswari795/backstage/tree/master
 
 spec:
   type: service
