@@ -1,6 +1,6 @@
 site_name: 'Backstage'
 
-pages:
+nav:
 - Getting Started:
     - Getting started: 'getting-started/index.md'
 - Software Templates:
