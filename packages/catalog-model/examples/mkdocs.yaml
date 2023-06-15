@@ -1,0 +1,7 @@
+site_name: 'spotify-docs'
+
+nav:
+  - Spotify: spotify.md
+
+plugins:
+  - techdocs-core
