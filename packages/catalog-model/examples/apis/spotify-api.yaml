@@ -6,6 +6,9 @@ metadata:
   description: |
     A service for testing Backstage functionality. Configured for GitHub Actions and
     Sentry.
+  annotations:
+    backstage.io/techdocs-ref: url:https://github.com/eswari795/backstage/blob/master/packages/catalog-model/examples
+
 spec:
   type: service
   owner: sganesula
