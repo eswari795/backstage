@@ -3,7 +3,7 @@ id: index
 title: Getting Started
 description: Documentation on How to get started with Backstage
 ---
-
+[Google](https://www.google.com/)
 For most Backstage installations, installing the standalone app will bring you
 the best and most streamlined experience. In this guide you will:
 
