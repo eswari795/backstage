@@ -35,6 +35,6 @@ spec:
   lifecycle: experimental
   owner: team-a
   system: artist-engagement-portal
-  dependsOn:
-    - resource: ../resources/artists-db
+  dependsOn: ['component:www-artist']
+
   apiConsumedBy: ['component:www-artist']
