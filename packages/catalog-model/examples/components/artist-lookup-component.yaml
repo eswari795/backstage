@@ -36,5 +36,5 @@ spec:
   owner: team-a
   system: artist-engagement-portal
   dependsOn:
-    - resource: resources/artists-db
+    - resource: ../resources/artists-db
   apiConsumedBy: ['component:www-artist']
