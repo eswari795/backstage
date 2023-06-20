@@ -33,7 +33,7 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: team-a
+  owner: Eswari
   system: artist-engagement-portal
   dependsOn: ['component:www-artist']
 
