@@ -36,7 +36,7 @@ spec:
   owner: Eswari
   system: artist-engagement-portal
   dependsOn: 
-      - www-artist
+      - component: www-artist
 
   apiConsumedBy: ['component:www-artist']
 ---
