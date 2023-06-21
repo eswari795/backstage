@@ -8,7 +8,7 @@ metadata:
     Sentry.
   annotations:
     backstage.io/techdocs-ref: url:https://github.com/eswari795/backstage/tree/master
-
+    github.com/project-slug: backstage/backstage
 spec:
   type: service
   owner: sganesula
