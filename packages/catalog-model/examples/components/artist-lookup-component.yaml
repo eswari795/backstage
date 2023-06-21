@@ -35,6 +35,6 @@ spec:
   lifecycle: experimental
   owner: Eswari
   system: artist-engagement-portal
-  dependsOn: ['component:www-artist']
+  dependsOn: ['resource:artists-db']
 
   apiConsumedBy: ['component:www-artist']
